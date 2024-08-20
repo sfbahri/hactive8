@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
-	"my_project/model"
+	"my_project/models"
 	"os"
 	"strconv"
 )
 
 func main() {
 
-	participants := []model.Participant{
+	participants := []models.Participant{
 		{ID: "", Nama: "Saeful", Alamat: "Jl. Merdeka No.1", Pekerjaan: "Software Engineer", Alasan: "Ingin mempelajari Golang"},
 		{ID: "", Nama: "Adilla", Alamat: "Jl. Sudirman No.2", Pekerjaan: "Data Scientist", Alasan: "Tertarik dengan performa Golang"},
 		{ID: "", Nama: "Afiza", Alamat: "Jl. Thamrin No.3", Pekerjaan: "Backend Developer", Alasan: "Ingin memperdalam backend dengan Golang"},
